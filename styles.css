@@ -1,0 +1,46 @@
+html {width: 100%; height: 100%;}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif; }
+body{background-color: #040D12; color: #93B1A6;}
+
+/* Header and Navbar Styles */
+
+/* Header Style */
+header {
+    background-color: #183D3D;
+    color: #f0f0f0;
+    padding: 1vh 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Heading Style in Header */
+.headerh1 {
+    font-size: 5vw; 
+    float: left;
+    margin: 0 1vw 0 1vw;
+    color: #f0f0f0;
+}
+/* Changes buttons to be on the right side of header */
+.buttons {
+    float: right;
+    
+}
+/* Styles buttons, aswell as when button is hovered and while aactive, Giving a click effect */
+.button {
+    background-color: #5C8374;
+    color: #f0f0f0;
+    padding: 1vh 1vh 1vh 1vh;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5vw 0 0;
+    cursor: pointer;
+    font-size: 1vw;
+    height: 5vh;
+    width: 10vw;
+}
+.button:hover{
+    background-color: #040D12;
+}
+.button:active{
+    background-color: #93B1A6;
+}
