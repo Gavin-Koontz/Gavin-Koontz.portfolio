@@ -29,13 +29,13 @@ header {
 .button {
     background-color: #5C8374;
     color: #f0f0f0;
-    padding: 1vh 1vh 1vh 1vh;
+    padding: 1vw 1vw 1vw 1vw;
     border: none;
     border-radius: 5px;
     margin: 0 5vw 0 0;
     cursor: pointer;
     font-size: 1vw;
-    height: 5vh;
+    height: 4vw;
     width: 10vw;
 }
 .button:hover{
