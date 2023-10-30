@@ -190,10 +190,10 @@ main {
     margin-right: 10px; /* Adjust spacing for mobile */
   }
 }
-.about-me {
 
+.about-me h2 {
+  margin-left: 5vw;
 }
-.about-me h2 { margin-left: 5vw;}
 .about-me p {
   margin: 1vw 5vw;
   font-size: 1.5em;
@@ -213,15 +213,26 @@ main {
 }
 
 .logo img {
-    width: 10vw; /* Adjust the width as needed */
-    height: 7.5vw; /* Maintain a 4:3 aspect ratio (3/4 * 10vw) */
-    margin-right: 5vw; /* Adjust the margin as needed */
+  width: 10vw; /* Adjust the width as needed */
+  height: 7.5vw; /* Maintain a 4:3 aspect ratio (3/4 * 10vw) */
+  margin-right: 2vw; /* Adjust the margin as needed */
 }
 
-@media (max-width: 700px) {
-  .logo img {
-    max-width: 45%; /* Two images per row on mobile */
-    height: auto; /* Maintain the original aspect ratio */
-    margin: 5px; /* Adjust the margin as needed */
-  }
+
+ footer{
+  margin: 5vw;
+  border-top: 3px solid #183d3d;
+  border-bottom: 3px solid #183d3d;
+
+ }
+.contact h2 {
+  margin-left: 5vw;}
+
+.contact p {
+  margin: 1vw 5vw;
+}
+
+.Project-logo-buttons{margin-top: 10vw;}
+.Projects{
+  margin: 0 5vw;
 }

@@ -1,84 +1,118 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Gavin Koontz Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
 
-<head>
-  <title> Gavin Koontz Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="Styles.css" />
-  
-</head>
-
-<body>
-  <header>
-    <!-- Header -->
-    <h1 class="header-title">Gavin Koontz</h1>
-    <div class="headerbuttons">
-      <a href="#about-me" class="headerbutton" >About</a>
-      <a href="#" class="headerbutton" >Projects</a>
-      <a href="#" class="headerbutton" >Contact</a>
-      <a href="#" class="headerbutton" >Resume</a>
-    </div>
-
-  </header>
-  <main>
-    <!-- Div that contains headshot photos below the header. -->
-    <div class="headshotcontainer">
-      <div class="headshotbox"><img src="Headshots/GreyShirt_Headshot.jpg" alt="headshot photo of Gavin in grey shirt">
+  <body>
+    <header>
+      <!-- Header -->
+      <h1 class="header-title">Gavin Koontz</h1>
+      <div class="headerbuttons">
+        <a href="#about-me" class="headerbutton">About</a>
+        <a href="Projects.html" class="headerbutton">Projects</a>
+        <a href="#contact" class="headerbutton">Contact</a>
+        <a href="#" class="headerbutton">Resume</a>
       </div>
-      <div class="headshotbox"><img src="Headshots/Laptop_Headshot.jpg" alt="headshot photo of Gavin holding laptop">
+    </header>
+    <main>
+      <!-- Div that contains headshot photos below the header. -->
+      <div class="headshotcontainer">
+        <div class="headshotbox">
+          <img
+            src="Headshots/GreyShirt_Headshot.jpg"
+            alt="headshot photo of Gavin in grey shirt"
+          />
+        </div>
+        <div class="headshotbox">
+          <img
+            src="Headshots/Laptop_Headshot.jpg"
+            alt="headshot photo of Gavin holding laptop"
+          />
+        </div>
+        <div class="headshotbox">
+          <img
+            src="Headshots/BlackShirt_Headshot.jpg"
+            alt="headshot photo of Gavin in black shirt"
+          />
+        </div>
       </div>
-      <div class="headshotbox"><img src="Headshots/BlackShirt_Headshot.jpg"
-          alt="headshot photo of Gavin in black shirt"></div>
+      <div class="scrolling-list-container">
+        <ul class="scrolling-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Python</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Photoshop</li>
+          <li>Procreate</li>
+          <li>UXDesign</li>
+          <!-- Add more skills here -->
+        </ul>
+        <script src="Scrolling_List.js"></script>
+      </div>
 
-    </div>
-<div class="scrolling-list-container">  
-    <ul class="scrolling-list">
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>Python</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>Photoshop</li>
-      <li>Procreate</li>
-      <li>UXDesign</li>
-      <!-- Add more skills here -->
-    </ul>
-    <script src="Scrolling_List.js"></script>
-    </div>
-
-    <section>
-      <div id="about-me" class="about-me">
-      <h2>About Me</h2><hr>
-      <p>
-          Hi, I'm Gavin Koontz. Growing up on a cattle and row crop farm, my love for technology began early. Known as the family's go-to "Tech Genius," I handled everything from computer issues to spreadsheet dilemmas.
-  
-          My first coding experience involved tinkering with Windows cmd, batch, and PowerShell. However, I found my true passion in HTML, creating small websites for fun. Alongside my tech adventures, I nurtured my creative side, frequently indulging in art.
-  
-          As I matured, I discovered that web development seamlessly blended coding and creativity, making it the perfect choice for me. Today, I'm pursuing a degree in web development, while also managing our family farm and nurturing my artistic side.
-  
-          Welcome to my portfolio, where I showcase my journey and creations.
-      </p><hr></div>
+      <section>
+        <div id="about-me" class="about-me">
+          <h2>About Me</h2>
+          <hr />
+          <p>
+            Hello, my name is Gavin Koontz. I grew up as a cattle and row crop
+            farmer. At a young age, I began to develop an interest in
+            technology. As my family noticed that I was a "Tech Genius," I was
+            the one they called when they had tech problems, whether it be a
+            simple restart of the computer or help with their spreadsheet - I
+            was the go-to person.<br><br> My first 'coding' experience involved messing
+            around with Windows cmd, batch, and PowerShell. I had a lot of fun
+            with these, but my most enjoyable and well-understood experience was
+            with HTML. I started creating random little websites all the time.
+            Alongside my tech adventures, I was also very creative and
+            frequently engaged in art creation.<br><br> As I grew older, I realized that
+            web development involved a lot of coding and creativity - this is
+            what I wanted to do. Today, I am pursuing a degree in web
+            development while still managing my family farm and creating art on
+            the side. Welcome to my portfolio.
+          </p>
+          <hr />
+        </div>
       </section>
       <section>
         <div class="logo-container">
           <div class="logo">
-            <a href="link-to-html-page.html"><img src="Logos/HTML_Logo.png" alt="HTML Logo"></a>
-            <a href="link-to-css-page.html"><img src="Logos/CSS_Logo.png" alt="CSS Logo"></a>
-            <a href="link-to-js-page.html"><img src="Logos/Javascript_Logo.png" alt="JavaScript Logo"></a>
-            <a href="link-to-python-page.html"><img src="Logos/Python_Logo.png" alt="Python Logo"></a>
-            <a href="link-to-github-page.html"><img src="Logos/GitHub-Logo.png" alt="GitHub Logo"></a>
-            <a href="link-to-procreate-page.html"><img src="Logos/Procreate-Logo.png" alt="Procreate Logo"></a>
+            <a href="link-to-html-page.html"
+              ><img src="Logos/HTML_Logo.png" alt="HTML Logo"
+            /></a>
+            <a href="link-to-css-page.html"
+              ><img src="Logos/CSS_Logo.png" alt="CSS Logo"
+            /></a>
+            <a href="link-to-js-page.html"
+              ><img src="Logos/Javascript_Logo.png" alt="JavaScript Logo"
+            /></a>
+            <a href="link-to-python-page.html"
+              ><img src="Logos/Python_Logo.png" alt="Python Logo"
+            /></a>
+            <a href="link-to-github-page.html"
+              ><img src="Logos/GitHub-Logo.png" alt="GitHub Logo"
+            /></a>
+            <a href="link-to-Photoshop-page.html"
+              ><img src="Logos/Photoshop_Logo.png" alt="Photoshop Logo">
+            <a href="link-to-procreate-page.html"
+              ><img src="Logos/Procreate-Logo.png" alt="Procreate Logo"
+            /></a>
           </div>
         </div>
       </section>
-      <section>
-<h2>Contact</h2>
-<h3>Email: 2023gkoontz@gmail.com</h3>
-      </section>
-      
-  </main>
-</body>
+    </main>
 
+    <footer>
+      <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Email: 2023gkoontz@gmail.com</p>
+      </div>
+    </footer>
+  </body>
 </html>
