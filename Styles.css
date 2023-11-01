@@ -231,8 +231,12 @@ main {
 .contact p {
   margin: 1vw 5vw;
 }
-
+.Experience{
+  margin: 5vw 5vw;
+  font-size: 1.25em;
+}
 .Project-logo-buttons{margin-top: 10vw;}
-.Projects{
-  margin: 0 5vw;
+
+@media (max-width: 700px) {
+  .Project-logo-buttons{margin-top: 25vw;}
 }
