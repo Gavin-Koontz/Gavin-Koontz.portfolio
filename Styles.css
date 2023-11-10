@@ -240,3 +240,37 @@ main {
 @media (max-width: 700px) {
   .Project-logo-buttons{margin-top: 25vw;}
 }
+
+.container {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 10px;
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+.content {
+  padding: 10px;
+  background-color: #f0f0f0;
+  height: 1vw; /* Initial collapsed height */
+  overflow: hidden; /* Hide any content that overflows */
+}
+
+.expanded {
+  height: auto; /* Set the height to auto when expanded */
+  overflow: visible; /* Make the content visible */
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 5px; /* Adjust margin for spacing on mobile */
+  }
+
+  .content {
+    height: 1vw; /* Keep the collapsed height for mobile */
+    padding: 5px; /* Adjust padding for mobile */
+  }
+
+  .expanded {
+    height: auto; /* Set the height to auto when expanded for mobile */
+  }
+}
