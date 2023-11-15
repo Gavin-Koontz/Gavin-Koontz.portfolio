@@ -115,10 +115,10 @@ main {
 }
 
 .headshotcontainer img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  border: 1px solid #93b1a6;
+  height: calc(100% - 2px); /* Adjusted height considering border */
+  width: calc(100% - 2px); /* Adjusted width considering border */
+  border: 3px solid #93b1a6;
+  box-sizing: border-box; /* Ensures border is included in the element's total width and height */
 }
 
 .headshotbox {
@@ -137,10 +137,10 @@ main {
   .headshotbox {
     width: 80vw;
     margin: 1vw;
-
     padding: 0;
   }
 }
+
 
 /* For scrolling list */
 .scrolling-list-container {
@@ -241,36 +241,37 @@ main {
   .Project-logo-buttons{margin-top: 25vw;}
 }
 
-.container {
-  width: 100%;
-  border: 1px solid #ccc;
-  margin: 10px;
-  overflow: hidden; /* Hide any content that overflows */
+/* Common styles for headings and container */
+.Section_Title{
+  margin-left: 5vw;
 }
 
-.content {
-  padding: 10px;
-  background-color: #f0f0f0;
-  height: 1vw; /* Initial collapsed height */
-  overflow: hidden; /* Hide any content that overflows */
+.Projects_Container {
+  border: 1px solid #93b1a6;
+  margin: 5vw;
+  text-align: left;
+  display: flex;
 }
 
-.expanded {
-  height: auto; /* Set the height to auto when expanded */
-  overflow: visible; /* Make the content visible */
+.Projects img {
+  width: 20vw; /* Adjust the width as needed */
+  height: 100%; /* Maintain a 4:3 aspect ratio */
+  margin-right: 2vw; /* Adjust the margin as needed */
 }
 
-@media (max-width: 768px) {
-  .container {
-    margin: 5px; /* Adjust margin for spacing on mobile */
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+  /* Adjust container layout for smaller screens */
+  .Projects_Container {
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw; /* Add padding for better spacing */
   }
 
-  .content {
-    height: 1vw; /* Keep the collapsed height for mobile */
-    padding: 5px; /* Adjust padding for mobile */
-  }
-
-  .expanded {
-    height: auto; /* Set the height to auto when expanded for mobile */
+  /* Adjust image size and spacing for smaller screens */
+  .Projects img {
+    width: 80vw;
+    margin-right: 0;
+    margin-bottom: 5vw;
   }
 }
