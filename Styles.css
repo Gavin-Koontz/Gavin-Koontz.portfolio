@@ -248,17 +248,19 @@ main {
 
 .Projects_Container {
   border: 1px solid #93b1a6;
-  margin: 5vw;
+  margin: 3vw;
   text-align: left;
   display: flex;
 }
-
+.Projects_Container p{
+  font-size: 1.4em;
+}
 .Projects img {
   width: 20vw; /* Adjust the width as needed */
   height: 100%; /* Maintain a 4:3 aspect ratio */
   margin-right: 2vw; /* Adjust the margin as needed */
 }
-
+.Project_Description{padding: 3vw;}
 /* Media query for smaller screens */
 @media (max-width: 700px) {
   /* Adjust container layout for smaller screens */
