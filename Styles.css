@@ -9,7 +9,6 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  /* Prevent horizontal scrolling */
   scroll-behavior: smooth;
 }
 
@@ -68,7 +67,7 @@ header {
 }
 
 /* Media Query for Mobile */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   header {
     justify-content: center;
     padding: 1vw 0;
@@ -96,7 +95,7 @@ main {
 }
 
 /* Media Query for Mobile */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   main {
     margin-top: 15vw;
     overflow-x: hidden;
@@ -128,7 +127,7 @@ main {
   margin: 1vw;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .headshotcontainer {
     height: 50vw;
     justify-content: center;
@@ -141,12 +140,12 @@ main {
   }
 }
 
-
 /* For scrolling list */
 .scrolling-list-container {
   background-color: #93b1a6;
   padding: none;
   margin: none;
+  width: 100%;
 }
 .scrolling-list {
   list-style: none;
@@ -176,18 +175,18 @@ main {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .scrolling-list {
     white-space: nowrap;
     overflow: hidden;
-    animation: scroll-left 20s linear infinite; /* Adjust duration as needed */
+    animation: scroll-left 15s linear infinite; /* Adjust duration as needed */
     width: 300%;
     font-size: 14px; /* Adjust font size for mobile */
     padding: 10px 0; /* Add padding for mobile */
   }
   .scrolling-list li {
     display: inline;
-    margin-right: 10px; /* Adjust spacing for mobile */
+    margin-right: 1vw; /* Adjust spacing for mobile */
   }
 }
 
@@ -197,7 +196,6 @@ main {
 .about-me p {
   margin: 1vw 5vw;
   font-size: 1.5em;
-
 }
 .logo-container {
   margin-top: 5vw;
@@ -218,31 +216,35 @@ main {
   margin-right: 2vw; /* Adjust the margin as needed */
 }
 
-
- footer{
+footer {
   margin: 5vw;
+  text-align: center;
   border-top: 3px solid #183d3d;
   border-bottom: 3px solid #183d3d;
-
- }
+}
 .contact h2 {
-  margin-left: 5vw;}
+  margin-left: 5vw;
+}
 
 .contact p {
   margin: 1vw 5vw;
 }
-.Experience{
+.Experience {
   margin: 5vw 5vw;
   font-size: 1.25em;
 }
-.Project-logo-buttons{margin-top: 10vw;}
+.Project-logo-buttons {
+  margin-top: 10vw;
+}
 
-@media (max-width: 700px) {
-  .Project-logo-buttons{margin-top: 25vw;}
+@media (max-width: 750px) {
+  .Project-logo-buttons {
+    margin-top: 25vw;
+  }
 }
 
 /* Common styles for headings and container */
-.Section_Title{
+.Section_Title {
   margin-left: 5vw;
 }
 
@@ -252,7 +254,7 @@ main {
   text-align: left;
   display: flex;
 }
-.Projects_Container p{
+.Projects_Container p {
   font-size: 1.4em;
 }
 .Projects img {
@@ -260,9 +262,11 @@ main {
   height: 100%; /* Maintain a 4:3 aspect ratio */
   margin-right: 2vw; /* Adjust the margin as needed */
 }
-.Project_Description{padding: 3vw;}
+.Project_Description {
+  padding: 3vw;
+}
 /* Media query for smaller screens */
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   /* Adjust container layout for smaller screens */
   .Projects_Container {
     flex-direction: column;
@@ -275,5 +279,16 @@ main {
     width: 80vw;
     margin-right: 0;
     margin-bottom: 5vw;
+  }
+}
+.KCSocials {
+  margin-left: 5vw;
+}
+.KCSocials img {
+  width: 2% !important;
+}
+@media (max-width: 750px) {
+  .KCSocials img {
+    width: 5% !important;
   }
 }
