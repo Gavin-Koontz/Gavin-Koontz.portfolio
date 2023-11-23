@@ -12,6 +12,7 @@ body {
   scroll-behavior: smooth;
 }
 
+
 /* Header Styles */
 header {
   background-color: #183d3d;
@@ -281,14 +282,14 @@ footer {
     margin-bottom: 5vw;
   }
 }
-.KCSocials {
+.Socials {
   margin-left: 5vw;
 }
-.KCSocials img {
+.Socials img {
   width: 2% !important;
 }
 @media (max-width: 750px) {
-  .KCSocials img {
+  .Socials img {
     width: 5% !important;
   }
 }
