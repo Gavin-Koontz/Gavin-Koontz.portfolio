@@ -191,6 +191,8 @@ main {
   }
 }
 
+
+
 .about-me h2 {
   margin-left: 5vw;
 }
@@ -293,3 +295,87 @@ footer {
     width: 5% !important;
   }
 }
+
+/* Add this CSS to your existing code */
+/* Add this CSS to your existing code */
+
+/* Adjust button container position */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center buttons within the container */
+  margin-top: 10px; /* Space between carousel and buttons */
+}
+
+.carousel-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.slide img {
+  width: 100%; /* Ensure images take up the full width of their container */
+  height: auto; /* Maintain image aspect ratio */
+  max-width: 100vw; /* Set maximum width of images to the viewport width */
+}
+
+button {
+  position: relative;
+  z-index: 1;
+  margin: 2vw;
+  width: 5vw;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .carousel {
+    position: relative; /* Adjust position for mobile */
+  }
+
+  .slide {
+    padding: 10px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Modify font size for better readability */
+  }
+
+  .button-container {
+    /* Updated button container styles for mobile */
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  button {
+    /* Updated button styles for mobile */
+    position: relative;
+    z-index: 1;
+  }
+}
+
+
+
