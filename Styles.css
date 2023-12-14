@@ -299,7 +299,7 @@ footer {
 .Certificate_Header {
 color: #5c8374;
 margin-left: 5vw;
-font-size: 1.5vw;
+font-size: 1.25em;
 }
 
 .button-container {
@@ -312,7 +312,7 @@ font-size: 1.5vw;
 
 .carousel-container {
   position: relative;
-  width: 33%;
+  width: 67%;
   margin: 0 auto;
   overflow: hidden;
 }
