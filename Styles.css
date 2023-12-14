@@ -296,21 +296,23 @@ footer {
   }
 }
 
-/* Add this CSS to your existing code */
-/* Add this CSS to your existing code */
+.Certificate_Header {
+color: #5c8374;
+margin-left: 5vw;
+font-size: 1.5vw;
+}
 
-/* Adjust button container position */
 .button-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center; /* Center buttons within the container */
-  margin-top: 10px; /* Space between carousel and buttons */
+  margin-top: .5vw; /* Space between carousel and buttons */
 }
 
 .carousel-container {
   position: relative;
-  width: 80%;
+  width: 33%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -338,11 +340,19 @@ footer {
   max-width: 100vw; /* Set maximum width of images to the viewport width */
 }
 
-button {
+.button-container a {
   position: relative;
   z-index: 1;
   margin: 2vw;
   width: 5vw;
+  text-decoration: none;
+  background-color: #5c8374;
+  color: #040d12;
+  border: 1px solid #5c8374;
+}
+.button-container a:hover {
+background-color: #93b1a6;
+cursor: pointer;
 }
 
 .prev {
