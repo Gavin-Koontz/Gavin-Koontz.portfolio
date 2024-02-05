@@ -312,7 +312,7 @@ font-size: 1.25em;
 
 .carousel-container {
   position: relative;
-  width: 33%;
+  width: 40%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -364,8 +364,12 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 750px) {
+.carousel-container {
+  width: 67%;
+}
   .carousel {
     position: relative; /* Adjust position for mobile */
+
   }
 
   .slide {
